@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loans</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" /> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=other_houses" />
+
+</head>
+
+<body>
+    <div class="topBanner">
+
+        <header class="header-container1">
+            <!-- Logo -->
+            <div class="logo">Sam Bank<i class="fas fa-university"></i></div>
+            <span class="burger" onclick="menu()">☰</span>
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#about-us">About Us</a>
+                <a href="#contact-us">Contact Us</a>
+                <a href="#help-support">Help & Support</a>
+                <a href="#security-info">Security Info</a>
+                <a href="./Personal.html" class="x">Personal</a>
+                <a href="./Loans.html" class="x">Loans</a>
+                <a href="./Loans.html" class="x">Credit Cards</a>
+                <a href="./OtherServices.html" class="x">Other Services</a>
+            </nav>
+
+            <!-- BSB and Login Button -->
+            <div class="info">
+                <div>BSB: 923-123</div>
+                <button class="login-button">Login</button>
+            </div>
+        </header>
+        <!-- Online Banking Selection Dropdown -->
+        <header class="header-container2" style="display: flex; justify-content: space-between;">
+            <div style="width: 400px;"></div>
+            <nav>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./Personal.html">Personal</a>
+                        <div class="dropdown-content">
+                            <a href="./Personal.html#onlineSaver">Savings Accounts</a>
+                            <a href="./Personal.html#checkingAcounts">Checking Accounts</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./Loans.html">Loans</a>
+                        <div class="dropdown-content">
+                            <a href="./Loans.html#personalLoan1">Personal Loans</a>
+                            <a href="./Loans.html#homeLoan1">Home Loans</a>
+                            <a href="./Loans.html#carLoan1">Car Loans</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="./CreditCard.html">Credit Cards</a>
+                        <div class="dropdown-content">
+                            <a href="./CreditCard.html#rewards">Rewards</a>
+                            <a href="./CreditCard.html#lowRateCreditCards">Low Rate Credit Cards</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./OtherServices.html">Other Services</a>
+                        <div class="dropdown-content">
+                            <a href="./OtherServices.html#shareTrading">share trading</a>
+                            <a href="./OtherServices.html#FinancialTips">Financial Tips</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Search -->
+            <div style="display: flex; width: 400px; align-self: center;">
+                <input type="text" class="input" placeholder="Ask a question">
+                <i class="fas fa-magnifying-glass" style="margin-left: 10px; "></i>
+
+            </div>
+            <!-- <div>
+            </div> -->
+        </header>
+    </div>
+    <!-- body -->
+    <div class="container-mt-5" style="position: relative; ">
+        <!-- Row 1 -->
+        <div class="row" style="position: absolute;">
+            <div class="col-sm-12 col-md" style="margin: 10px; ">
+                <div class=" d-flex  flex-column  justify-content-center">
+                    <h1 style="font-weight: bold; margin:50px 0 0 150px; color: white;">Home Loans</h1>
+                    <h2 style="font-weight: bold; margin: 0 0 0 150px; color: white;">Find the home loan that fits you
+                    </h2>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light"
+            style="height: 1200px; background-image: url(./img/sweetHome.jpg); background-size: cover; background-position:top; padding:0 200px;">
+            <div class="col-sm-12 col-md-3">
+                <div class="loan">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px;">
+                        Buy your first home
+                    </h3>
+                    <h2 style="font-weight: bold; text-align: right; margin:80px 30px 0 0;">
+                        <span class="material-symbols-outlined" style="font-size: 100px;">other_houses</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="loan">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px;">
+                        Buy your next home
+                    </h3>
+                    <h2 style="font-weight: bold; text-align: right; margin:80px 30px 0 0;">
+                        <span class="material-symbols-outlined" style="font-size: 100px;">other_houses</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="loan">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px;">
+                        Invest in property
+                    </h3>
+                    <h2 style="font-weight: bold; text-align: right; margin:80px 30px 0 0;">
+                        <span class="material-symbols-outlined" style="font-size: 100px;">other_houses</span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <div class="loan">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px;">
+                        Refinance to us
+                    </h3>
+                    <h2 style="font-weight: bold; text-align: right; margin:80px 30px 0 0;">
+                        <span class="material-symbols-outlined" style="font-size: 100px;">other_houses</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12" style="margin: 0; ">
+            <div class="d-flex  flex-column  ">
+                <h3 style="font-weight: bold; text-align: right; "><button class="blueBtn"
+                        style="font-size: 30px;">Quick start your application</button></h3>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row" id="homeLoan1">
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1>
+                <h3 style="font-weight: bold; text-align: center; margin: 20px; height: 120px;">Variable Rate Home Loans
+                </h3>
+                <h4 style="margin-left: 30px;">If you're looking for a variable home loan with flexibale access, we have
+                    options for you.</h4>
+                <h4 style="font-weight: bold; margin: 110px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1>
+                <h3 style="font-weight: bold; text-align: center; margin: 20px; height: 120px;">Fixed Rate Home Loans
+                </h3>
+                <h4 style="margin-left: 30px;">Our fixed rate home loans allow you to lock an interest rate so you know
+                    excatly what your mortgage repayments will be.</h4>
+                <h4 style="font-weight: bold; margin: 110px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1>
+                <h3 style="font-weight: bold; text-align: center; margin: 20px; height: 120px;">More home loan options
+                </h3>
+                <h4 style="margin-left: 30px;">Are you looking for a specific home loan feature? We have a range of home
+                    loan options designed to suit.</h4>
+                <h4 style="font-weight: bold; margin: 110px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-mt-5" style="position: relative; ">
+        <!-- Row 1 -->
+        <div class="row" style="position: absolute;">
+            <div class="col-sm-12 col-md" style="margin: 10px; ">
+                <div class=" d-flex  flex-column  justify-content-center">
+                    <h1 style="font-weight: bold; margin:50px 0 0 150px; color: white;">Personal Loans</h1>
+                    <h2 style="font-weight: bold; margin: 0 0 0 150px; color: white;">View our low interest rates for
+                        personal loans and find the best rate personal loan for you.
+                    </h2>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light" id="personalLoan1"
+            style="height: 1200px; background-image: url(./img/personalLoan.jpg); background-size: cover; background-position:top; padding:0 200px;">
+            <div class="col-sm-12 col-md-4">
+                <div id="loan" style="height: 380px;">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px; ">
+                        LIMITED TIME OFFER
+                    </h3>
+                    <h4 style="font-weight: bold; ; margin:80px 20px 30px; color: red; text-align: justify;"
+                        id="carLoan1">
+                        Apply for a Car Loan with No Application Fee. Offer ends before 31/12/2024
+                    </h4>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="loan" style="height: 380px;">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px; ">
+                        Car Loan
+                    </h3>
+                    <h4 style="font-weight: bold; margin:80px 20px 30px ; text-align: justify;">
+                        6.49% PA Fixed Interest Rate or check 6.49% PA Comparison Rate
+                    </h4>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="loan" style="height: 380px;">
+                    <h3 style="font-weight: bold; margin: 130px 0 30px; ">
+                        Fixed Personal Loan
+                    </h3>
+                    <h4 style="font-weight: bold; margin:80px 20px 30px; text-align: justify; ">
+                        8.99% PA, 9.35% PA Comparison Rate* See Comparison Rate warning
+                    </h4>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12" style="margin: 0; ">
+            <div class="d-flex  flex-column  ">
+                <h3 style="font-weight: bold; text-align: right; "><button class="blueBtn"
+                        style="font-size: 30px; ;">Quick start your application</button></h3>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1 style="height: 380px;">
+                <h3 style="font-weight: bold; text-align: center; margin: 20px; ">Make it happen with a
+                    Personal Loan
+                </h3>
+                <h4 style="margin-left: 30px;">Whether it’s new wheels, a home reno or a dream holiday, our Personal
+                    Loan can help make it happen.</h4>
+                <h4 style="font-weight: bold; margin: 150px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1 style="height: 380px;">
+                <h3 style="font-weight: bold; text-align: center; margin: 20px;">Simple and
+                    effective Repayments Calculator</h3>
+                <h4 style="margin-left: 30px;">Use our personal/ car loan repayment calculator to estimate your personal
+                    loan
+                    repayments and interest rate.</h4>
+                <h4 style="font-weight: bold; margin: 150px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <div class=loan1 style="height: 380px;">
+                <h3 style="font-weight: bold; text-align: center; margin: 20px;">More personal and car
+                    loan options</h3>
+                <h4 style="margin-left: 30px;">Borrow up to $120,000
+                    Without having to provide an asset, such as your home, as security.</h4>
+                <h4 style="font-weight: bold; margin: 150px 30px 30px;">Learn more ></h4>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer1">
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Help and Support</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">FAQs</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Documents and forms</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Tips, hints and guides</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Financial support</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Ways to bank</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Open Banking Developer Portal</a></p>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Rates and Fees</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Credit card rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All personal loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All home loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Tools and Calculators</h5>
+                    <p><a href="#" style="color: white; text-decoration: none;">Regular Savings
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">Home Loan
+                            Repayments
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">All home loan
+                            rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Connect with Us</h5>
+                    <p><i class="fab fa-instagram"></i><a href="#" style="color: white; text-decoration: none;">
+                            Instagrame</a></p>
+                    <p><i class="fab fa-facebook"></i><a href="#" style="color: white; text-decoration: none;">
+                            Facebook</a></p>
+                    <p><i class="fab fa-youtube"></i><a href="#" style="color: white; text-decoration: none;">
+                            YouTube</a></p>
+                    <p><i class="fas fa-blog"></i><a href="#" style="color: white; text-decoration: none;">Blog</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer2 -->
+    <footer class="footer2">
+        <div class="container2">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-start mb-0">
+                <!-- About Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">About Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Contact Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Contact Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Careers -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Careers</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Security -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Security</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Privacy -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Privacy</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Legal -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Legal</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Site Map -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Site Map</a>
+                </li>
+
+            </ul>
+            <div class="footer3">
+                Sam is a business name of Bank
+                (Australia) Limited ABN 24 000 893 292 AFSL 229823, Australian Credit Licence
+                229823.
+            </div>
+
+
+
+        </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        function menu() {
+            const navbarContainer = document.querySelector(".topBanner");
+
+            // Toggle the 'show' class to display the navbar
+            navbarContainer.classList.toggle("active");
+            const x = document.querySelector(".x");
+            x.classList.toggle("active");
+
+            console.log(x);
+
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Cards</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" /> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="topBanner">
+        <header class="header-container1">
+            <!-- Logo -->
+            <div class="logo">Sam Bank<i class="fas fa-university"></i></div>
+            <span class="burger" onclick="menu()">☰</span>
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#about-us">About Us</a>
+                <a href="#contact-us">Contact Us</a>
+                <a href="#help-support">Help & Support</a>
+                <a href="#security-info">Security Info</a>
+                <a href="./Personal.html" class="x">Personal</a>
+                <a href="./Loans.html" class="x">Loans</a>
+                <a href="./Loans.html" class="x">Credit Cards</a>
+                <a href="./OtherServices.html" class="x">Other Services</a>
+            </nav>
+
+            <!-- BSB and Login Button -->
+            <div class="info">
+                <div>BSB: 923-123</div>
+                <button class="login-button">Login</button>
+            </div>
+        </header>
+        <!-- Online Banking Selection Dropdown -->
+        <header class="header-container2" style="display: flex; justify-content: space-between;">
+            <div style="width: 400px;"></div>
+            <nav>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./Personal.html">Personal</a>
+                        <div class="dropdown-content">
+                            <a href="./Personal.html#onlineSaver">Savings Accounts</a>
+                            <a href="./Personal.html#checkingAcounts">Checking Accounts</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./Loans.html">Loans</a>
+                        <div class="dropdown-content">
+                            <a href="./Loans.html#personalLoan1">Personal Loans</a>
+                            <a href="./Loans.html#homeLoan1">Home Loans</a>
+                            <a href="./Loans.html#carLoan1">Car Loans</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="./CreditCard.html">Credit Cards</a>
+                        <div class="dropdown-content">
+                            <a href="./CreditCard.html#rewards">Rewards</a>
+                            <a href="./CreditCard.html#lowRateCreditCards">Low Rate Credit Cards</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./OtherServices.html">Other Services</a>
+                        <div class="dropdown-content">
+                            <a href="./OtherServices.html#shareTrading">share trading</a>
+                            <a href="./OtherServices.html#FinancialTips">Financial Tips</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Search -->
+            <div style="display: flex; width: 400px; align-self: center;">
+                <input type="text" class="input" placeholder="Ask a question">
+                <i class="fas fa-magnifying-glass" style="margin-left: 10px; "></i>
+
+            </div>
+            <!-- <div>
+            </div> -->
+        </header>
+    </div>
+    <!-- body -->
+    <div class="container-mt-5">
+        <!-- Row 1 -->
+        <div class="row" id="rowP">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-6">
+                <div class="text1" id="banner1">
+                    <h2 style="font-weight: bold; margin: 150px 0 40px;">Credit cards</h2>
+                    <h5 style="margin-bottom: 20px;">For everyday or just those rainy days, a credit card may come in
+                        handy.</h5>
+                    <h5 style="margin-bottom: 20px;"> Whether you’re after Rewards Points or Qantas Points, or a low fee
+                        or low-rate card that simply
+                        gets the job done, compare our range to find the best credit card to suit your needs.
+                    </h5>
+                    <h5 style="margin-bottom: 25px;"> Plus, when you get a credit card with us, you also get 24/7
+                        anti-fraud protection thanks to our
+                        Falcon.
+                    </h5>
+                    <button class="blueBtn">Find a card to suit you</button>
+                    <button class="blueBtn1">Compare all cards</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="text">
+                    <img src="./img/creditCards.jpg" alt="creditCard">
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-light">
+            <div class="col-sm-12 col-md" style="margin: 10px; ">
+                <div class=" d-flex  flex-column  justify-content-center">
+                    <h3 style="font-weight: bold; margin:50px 0 0 30px;">What credit card might suit you?</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light">
+            <div class="col-sm-12 col-md-4">
+                <div class="p d-flex " style="flex-direction: column; margin-left: 40px;">
+                    <h4><a href="#" style="font-weight: bold; font-size: 30px; text-decoration: none;">Low fee or low
+                            rate credit cards ></a>
+                    </h4>
+                    <h5>I want a credit card with a lower interest rate or annual fee.</h5>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="p " style="height: auto;">
+                    <h3><a href="#" style="font-weight: bold; font-size: 30px; text-decoration: none;">Rewards credit
+                            cards ></a> </h3>
+                    <h5>I want to earn Reward PointsSuperscript:1and redeem them for things like gift cards and airline
+                        partner points.Superscript:2</h5>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="p" style="height: auto;">
+                    <h3 style="font-weight: bold;"><a href="#"
+                            style="font-weight: bold; font-size: 30px; text-decoration: none;">Frequent Flyer credit
+                            cards ></a> </h3>
+                    <h5 style="margin-bottom: 120px;">I want to earn Qantas Points and start booking
+                        flights, hotels and travel upgrades.
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="height: auto;">
+            <div class="col-sm-12 col-md">
+                <div class="p-3 d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px;">
+                    <h3 style="font-weight: bold; text-align: left; margin:30px 0;">
+                        New card offer
+                    </h3>
+                    <h4 style="font-weight: bold; margin: 10px 0 30px; text-align: left;">
+                        Is 0% p.a. interest on a balance transfer for a 28 month promo period music to your ears?
+                    </h4>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        3% Balance Transfer fee applies.
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        See our latest balance transfer offer, available with a new Low Rate credit card.Superscript
+                    </h5>
+
+                    <button class="blueBtn" style="margin: 40px 0;"> Tell me more</button>
+                    <h5 style="margin: 30px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        28-month promotional period starts when we issue a Letter of Offer, not when the Balance
+                        Transfer is processed (usually 3-15 business days after card activation). Rate reverts to
+                        standard BT rate at the end of the promotional period, currently Superscript:4 T&Cs, eligibility
+                        criteria, fees & charges apply (including an annual fee, $0 for the first year, currently $58
+                        thereafter).
+                    </h5>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row bg-light">
+            <div class=" col-sm-12 col-md-12" style="margin-top: 30px">
+                <div class=" d-flex  flex-column  justify-content-center" id="rewards">
+                    <h3 style="font-weight: bold; margin:50px 0 0 20px;">Rewards credit cards</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light" style="height: auto; padding: 40px; ">
+            <div class="col-sm-12 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; ">
+                    <img src="./img/visaCard.webp" alt=""
+                        style="width: 400px; border-radius: 10px; display: block; margin: auto;">
+
+                    <h4 style="font-weight: bold; margin:50px 0;">
+                        Rewards Black credit card
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 20px 0 30px; ">
+                        Highest Reward Points earn rate
+                    </h5>
+                    <h5 style="text-align: center;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $15,000 Minimum credit limit
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $375 Current annual fee
+                    </h5>
+
+                    <button class="blueBtn1" style="margin-top: 60px;">See our Rewards Black</button>
+                    <h5
+                        style="font-weight: bold; margin: 60px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Offer
+                    </h5>
+                    <h5 style="font-weight: bold; margin-top: 15px; ">Earn 180,000 extra Reward Points and $150
+                        credit back to your
+                        new card</h5>
+                    <h5 style="margin-top: 20px;">when you spend $3,000 on eligible purchases in the first 3 months
+                        from approval of your new Rewards Black credit card.</h5>
+                    <h5 style="margin-top: 20px;">New Rewards card. T&Cs, eligibility criteria, fees and charges
+                        apply (including an annual fee, currently $375).</h5>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; ">
+                    <img src="./img/visaCard3.webp" alt=""
+                        style="width: 400px; border-radius: 10px ; display: block; margin: auto;">
+                    <h4 style="font-weight: bold; text-align: left; margin:50px 0;">
+                        Rewards Platinum credit card
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 20px 0 30px; text-align: left;">
+                        Uncapped Reward Points earn rate
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $6,000 Minimum credit limit
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $149 Current annual fee
+                    </h5>
+
+                    <button class="blueBtn1" style="margin-top: 60px;">See our Rewards Platinum</button>
+                    <h5
+                        style="font-weight: bold; margin: 60px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Offer
+                    </h5>
+                    <h5 style="font-weight: bold; margin-top: 15px; ">Earn 100,000 extra Reward Points and $50
+                        credit back to your
+                        new card</h5>
+                    <h5 style="margin-top: 20px;">when you spend $2,000 on eligible purchases in the first 3 months
+                        from approval of your new Rewards Black credit card.</h5>
+                    <h5 style="margin-top: 20px;">New Rewards card. T&Cs, eligibility criteria, fees and charges
+                        apply (including an annual fee, currently $149).</h5>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row bg-light" id="lowRateCreditCards">
+            <div class=" col-sm-12 col-md-12" style="margin-top: 30px">
+                <div class=" d-flex flex-column  justify-content-center">
+                    <h3 style="font-weight: bold; margin:50px 0 0 20px; ">Low rate or fee credit cards</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light" style="height: auto; padding: 40px; ">
+            <div class="col-sm-12 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px;">
+                    <img src="./img/visaCard2.webp" alt=""
+                        style="width: 620px; border-radius: 10px ; display: block; margin: auto;">
+                    <h3 style="font-weight: bold; text-align: left; margin:50px 0;">
+                        First credit card
+                    </h3>
+                    <h5 style="font-weight: bold; margin: 20px 0 30px; text-align: left;">
+                        This credit card has the lowest annual fee:compared to all other credit cards.
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $1,000 Minimum credit limit
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $30 Current annual fee
+                    </h5>
+
+                    <button class="blueBtn1" style="margin-top: 60px;">See our First</button>
+                    <h5
+                        style="font-weight: bold; margin: 60px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Offer
+                    </h5>
+                    <h5 style="font-weight: bold; margin-top: 15px; ">Earn $125
+                        credit back to your
+                        new card</h5>
+                    <h5 style="margin-top: 20px;">when you spend $750 on eligible purchases in the first 3 months
+                        from approval of your new Rewards Black credit card.</h5>
+                    <h5 style="margin-top: 20px;">New Rewards card. T&Cs, eligibility criteria, fees and charges
+                        apply (including an annual fee, currently $30).</h5>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="p-3 d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; ">
+                    <img src="./img/visaCard1.webp" alt=""
+                        style="width: 560px; border-radius: 10px ; display: block; margin: auto;">
+                    <h3 style="font-weight: bold; text-align: center; margin:50px 0;">
+                        Low Rate credit card
+                    </h3>
+                    <h5 style="font-weight: bold; margin: 20px 0 30px; text-align: left;">
+                        Our lowest interest rate on purchases at
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $1,000 Minimum credit limit
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 40px; font-weight: bold;">✔</span>
+                        $58 Current annual fee
+                    </h5>
+
+                    <button class="blueBtn1" style="margin-top: 60px;">See our low rate</button>
+                    <h5
+                        style="font-weight: bold; margin: 60px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Offer
+                    </h5>
+                    <h5 style="font-weight: bold; margin-top: 15px; ">Earn $50
+                        credit back to your
+                        new card</h5>
+                    <h5 style="margin-top: 20px;">when you spend $1,000 on eligible purchases in the first 3 months
+                        from approval of your new Rewards Black credit card.</h5>
+                    <h5 style="margin-top: 20px;">New Rewards card. T&Cs, eligibility criteria, fees and charges
+                        apply (including an annual fee, currently $58).</h5>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Row 5 -->
+
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer1">
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Help and Support</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">FAQs</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Documents and forms</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Tips, hints and guides</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Financial support</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Ways to bank</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Open Banking Developer Portal</a></p>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Rates and Fees</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Credit card rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All personal loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All home loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Tools and Calculators</h5>
+                    <p><a href="#" style="color: white; text-decoration: none;">Regular Savings
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">Home Loan
+                            Repayments
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">All home loan
+                            rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Connect with Us</h5>
+                    <p><i class="fab fa-instagram"></i><a href="#" style="color: white; text-decoration: none;">
+                            Instagrame</a></p>
+                    <p><i class="fab fa-facebook"></i><a href="#" style="color: white; text-decoration: none;">
+                            Facebook</a></p>
+                    <p><i class="fab fa-youtube"></i><a href="#" style="color: white; text-decoration: none;">
+                            YouTube</a></p>
+                    <p><i class="fas fa-blog"></i><a href="#" style="color: white; text-decoration: none;">Blog</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer2 -->
+    <footer class="footer2">
+        <div class="container2">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-start mb-0">
+                <!-- About Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">About Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Contact Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Contact Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Careers -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Careers</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Security -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Security</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Privacy -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Privacy</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Legal -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Legal</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Site Map -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Site Map</a>
+                </li>
+
+            </ul>
+            <div class="footer3">
+                Sam is a business name of Bank
+                (Australia) Limited ABN 24 000 893 292 AFSL 229823, Australian Credit Licence
+                229823.
+            </div>
+
+
+
+        </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        function menu() {
+            const navbarContainer = document.querySelector(".topBanner");
+
+            // Toggle the 'show' class to display the navbar
+            navbarContainer.classList.toggle("active");
+            const x = document.querySelector(".x");
+            x.classList.toggle("active");
+
+            console.log(x);
+
+
+        }
+    </script>
+</body>
+
+</html>

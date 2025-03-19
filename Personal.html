@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" /> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="topBanner">
+
+        <header class="header-container1">
+            <!-- Logo -->
+            <div class="logo">Sam Bank<i class="fas fa-university"></i></div>
+            <span class="burger" onclick="menu()">☰</span>
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#about-us">About Us</a>
+                <a href="#contact-us">Contact Us</a>
+                <a href="#help-support">Help & Support</a>
+                <a href="#security-info">Security Info</a>
+                <a href="./Personal.html" class="x">Personal</a>
+                <a href="./Loans.html" class="x">Loans</a>
+                <a href="./Loans.html" class="x">Credit Cards</a>
+                <a href="./OtherServices.html" class="x">Other Services</a>
+            </nav>
+
+            <!-- BSB and Login Button -->
+            <div class="info">
+                <div>BSB: 923-123</div>
+                <button class="login-button">Login</button>
+            </div>
+        </header>
+        <!-- Online Banking Selection Dropdown -->
+        <header class="header-container2" style="display: flex; justify-content: space-between;">
+            <div style="width: 400px;"></div>
+            <nav>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="./Personal.html">Personal</a>
+                        <div class="dropdown-content">
+                            <a href="./Personal.html#onlineSaver">Savings Accounts</a>
+                            <a href="./Personal.html#checkingAcounts">Checking Accounts</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./Loans.html">Loans</a>
+                        <div class="dropdown-content">
+                            <a href="./Loans.html#personalLoan1">Personal Loans</a>
+                            <a href="./Loans.html#homeLoan1">Home Loans</a>
+                            <a href="./Loans.html#carLoan1">Car Loans</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="./CreditCard.html">Credit Cards</a>
+                        <div class="dropdown-content">
+                            <a href="./CreditCard.html#rewards">Rewards</a>
+                            <a href="./CreditCard.html#lowRateCreditCards">Low Rate Credit Cards</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./OtherServices.html">Other Services</a>
+                        <div class="dropdown-content">
+                            <a href="./OtherServices.html#shareTrading">share trading</a>
+                            <a href="./OtherServices.html#FinancialTips">Financial Tips</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Search -->
+            <div style="display: flex; width: 400px; align-self: center;">
+                <input type="text" class="input" placeholder="Ask a question">
+                <i class="fas fa-magnifying-glass" style="margin-left: 10px; "></i>
+
+            </div>
+            <!-- <div>
+            </div> -->
+        </header>
+    </div>
+    <!-- body -->
+    <div class="container-mt-5">
+        <!-- Row 1 -->
+        <div class="row" id="rowP">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-4">
+                <div class="text1">
+                    <h3 style="font-weight: bold; margin-bottom: 20px;">Band Accounts</h3>
+                    <h5>Find the bank account that works for you. We offer a range of easy-to-use accounts to help
+                        with your banking needs. </h5>
+                    <h5> Choose from everyday, savings and term deposit bank accounts, or get integrated transact
+                        and save accounts from <a href="#" style="font-size: 25px;">the Plus</a>, designed to help
+                        you spend less and save more. </h5>
+                    <h5> Need to before you open a new bank account? Use our handy tool to <a href="#"
+                            style="font-size: 25px;">compare
+                            bank accounts</a> for term deposits, everyday transaction and savings accounts.</h5>
+                    <h4 style="font-weight: bold; margin: 40px 0 20px;">Jump to</h4>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Everyday and savinngs
+                            accounts</a></h5>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Term deposits
+                            accounts</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Information ans support</a></h5>
+
+                    <h3 style="font-weight: bold; margin: 80px 0 20px;">Insurance</h3>
+                    <h5 style="margin-bottom: 20px;">Help protect the things that matter most to you. Buy
+                        insurance and get the confidence knowing that your lifestyle and financial wellbeing can be
+                        looked after when the unexpected happens. Once you've found an insurance product that works
+                        for you, you can get in touch for a quote.
+                    </h5>
+                    <h4 style="font-weight: bold; margin: 40px 0 20px;">I want cover for...</h4>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Life and income</a></h5>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Home, contents and
+                            investment property</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Car or motor vehicle</a></h5>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-4">
+                <div class="text1">
+                    <h3 style="font-weight: bold; margin-bottom: 20px;">Ways to bank</h3>
+                    <h5>Skip a trip to the branch with smarter ways to move your money. </h5>
+                    <h4 style="font-weight: bold; margin: 40px 0 20px;">Jump to</h4>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Our App</a></h5>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Digital wallets</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Internet banking</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Easy ways to maange money</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Understanding cyber security</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Way to contact us</a></h5>
+
+                    <h3 style="font-weight: bold; margin: 80px 0 20px;">International Money Transfers and
+                        Exchange</h3>
+                    <h5 style="margin-bottom: 20px;">Make international
+                        money transfers quickly and securely to more than 250 destinations via our Internet
+                        Banking. Start using our tools and apps to help you do currency conversions in a
+                        flash. And don’t forget your travel insurance.
+                    </h5>
+                    <h4 style="font-weight: bold; margin: 40px 0 20px;">Jump to</h4>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">International money
+                            transfer</a></h5>
+                    <h5 style="margin-bottom: 20px;"><a href="#" style="font-size: 25px;">Foreign exchange
+                            calculator</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Travel insurance</a></h5>
+                    <h5><a href="#" style="font-size: 25px;">Tips and guides</a></h5>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text">
+                    <img src="./img/maple.jpg" alt="Maple tree" style="width: 850px; margin: 0 10px ; ">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row bg-light">
+            <div class="col-sm-12 col-md-3">
+                <div class="p-3 bg-light d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; height: 770px;">
+                    <h4 style="font-weight: bold; text-align: left; margin:30px 0;">
+                        <i class="fas fa-piggy-bank fa-2x"></i> Plus
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 10px 0 30px; text-align: left;">
+                        Exclusively in the Plus App. You'll get:
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold; ">✔</span>
+                        An everyday transact account that helps
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Save: a multi-goal savings account
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        No monthly account service fee
+                    </h5>
+                    <button class="blueBtn"> Explore Plus</button>
+                    <h5
+                        style="font-weight: bold; margin: 30px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Our Save rate
+                    </h5>
+                    <h5 style="font-weight: bold; ">5.00% p.a.</h5>
+                    <h6 style="padding-bottom: 20px; text-align: justify;">Here's how it works: You'll get a standard
+                        rate of 0.50% p.a. on
+                        your total Save balance
+                        each month, plus a bonus rate of 4.50% p.a.
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="p-3 bg-light d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; height: 770px">
+                    <h4 style="font-weight: bold; text-align: left; margin: 30px 0;">
+                        <i class="fas fa-piggy-bank fa-2x"></i> Access Advantage
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 10px 0 30px; text-align: left;">
+                        The easy-to-use everyday account. for you.
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Get an Access Visa Debit card
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Make faster payments with PayID
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Monthly account service fee waiver available
+                    </h5>
+                    <button class="blueBtn"> Apply online now</button>
+                    <h5
+                        style="font-weight: bold; margin: 30px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Monthly account service fee
+                    </h5>
+                    <h5 style="font-weight: bold; ">$5</h5>
+                    <h6 style="text-align: justify; padding-bottom: 20px;">The transaction account for everyday banking.
+                        Access Advantage is easy to use and packed
+                        with great features for day-to-day transactions.</h6>
+
+
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="p-3 bg-light d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; height: 770px">
+                    <h4 style="font-weight: bold; text-align: left; margin: 30px 0;">
+                        <i class="fas fa-piggy-bank fa-2x" id="onlineSaver"></i> Online Saver
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 10px 0 30px; text-align: left;">
+                        Earn interest and hit your savings goal sooner.
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Bonus interest for the first 3 months
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        No minimum balance
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        No monthly account service fee
+                    </h5>
+                    <button class="blueBtn"> Apply online now</button>
+                    <h5
+                        style="font-weight: bold; margin: 30px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        Interest
+                    </h5>
+                    <h5 style="font-weight: bold; ">3.65% p.a. total rate</h5>
+                    <h6 style="padding-bottom: 20px; text-align: justify;">Enjoy a standard variable rate of 1.40% p.a.
+                        combined with an introductory bonus interest rate of 2.25% p.a. for the first three months.
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="p-3 bg-light d-flex flex-column align-items-start"
+                    style="border: 2px solid lightgray; margin-top: 0; border-radius: 10px; height: 770px">
+                    <h4 style="font-weight: bold; text-align: left; margin: 30px 0;">
+                        <i class="fas fa-piggy-bank fa-2x"></i> Progress Saver
+                    </h4>
+                    <h5 style="font-weight: bold; margin: 10px 0 30px; text-align: left;">
+                        You could be eligible for bonus interest.
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        No monthly account service fee applied
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        No minimum balance
+                    </h5>
+                    <h5 style="text-align: left;">
+                        <span style="color: greenyellow; font-size: 30px; font-weight: bold;">✔</span>
+                        Bonus interest on your savings
+                    </h5>
+                    <button class="blueBtn"> Apply online now</button>
+                    <h5
+                        style="font-weight: bold; margin: 30px 0 10px; border-top: 2px solid lightgray; padding-top: 20px;">
+                        In any given month:
+                    </h5>
+                    <h5 style="font-weight: bold; ">4.25% p.a. total rate</h5>
+                    <h6 style="padding-bottom: 20px; text-align: justify;">base interest rate of 0.01% p.a., combined
+                        with an interest of 4.24% p.a. To qualify for
+                        the bonus interest, all you need to do is $10 in a single transactio</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="p-3 bg-white d-flex align-items-center justify-content-center">
+                    <h4 style="font-weight: bold;">More banking solutions</h4>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4" style="height: auto">
+                <div class="p-3 bg-white" style="height: auto;">
+                    <h5 style="margin-top: 0;">Kids, teens and youth banking:
+                    </h5>
+                    <h4 style="display: flex; flex-direction: column; ">
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0;">Our Progress Saver
+                            ></a>
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0 20px;">Our Access
+                            Advantage ></a>
+                    </h4>
+                    <h5>Accounts for customers that hold a concession card or are receiving Government benefits
+                    </h5>
+                    <h4 style="display: flex; flex-direction: column;">
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0;">Access Basic ></a>
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0;">Pensioner Adavantage
+                            ></a>
+                    </h4>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4" style="height: auto">
+                <div class="p-3 bg-white" style="height: auto;">
+                    <h5 style="margin-top: 0;">Get an account that offers a Visa Debit card:
+                    </h5>
+                    <h4 style="display: flex; flex-direction: column; ">
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0 20px;">Our Visa Debit
+                            card
+                            >
+                        </a>
+
+                    </h4>
+                    <h5>Find an account for when you arrive in Australia
+                    </h5>
+                    <h4 style="display: flex; flex-direction: column;">
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0;">Migrant banking
+                            ></a>
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0 20px;">Pensioner
+                            Adavantage
+                            ></a>
+                    </h4>
+                    <h5>Manage your investment cash flow
+                    </h5>
+                    <h4 style="display: flex; flex-direction: column;">
+                        <a href="#" style="font-size: 25px; text-decoration: none; margin: 10px 0;">Our Premium Cash
+                            Management Account
+                            ></a>
+                    </h4>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row bg-light">
+            <div class="col-sm-12 col-md-12" style="margin-top: 30px">
+                <div class="bg-light d-flex align-items-center justify-content-center">
+                    <h4 style="font-weight: bold;" id="checkingAcounts">Do your banking where and when you like</h4>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row bg-light" id="iconsRow">
+            <!-- Column 1 -->
+
+            <div class="col-12 col-md" id="ets">
+                <div class="text-center1" id="crop1">
+                    <Img src="./img/Symbol.webp" alt="" class="imageCrop1">
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; margin-top: 200px; text-align: center;">Online Banking
+                        </h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="text-center1" id="crop2">
+                    <Img src="./img/Symbol.webp" alt="" class="imageCrop2">
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; text-align: center; margin-top: 200px;">Mobile app</h5>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="col-12 col-md">
+                <div class="text-center1" id="crop1">
+                    <Img src="./img/Symbol.webp" class="imageCrop3"></Img>
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; text-align: center; margin-top: 200px;">Customer care</h5>
+                    </a>
+                </div>
+            </div> -->
+            <div class="col-12 col-md">
+                <div class="text-center1" id="crop3">
+                    <Img src="./img/Symbol.webp" alt="" class="imageCrop4">
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; text-align: center; margin-top: 200px;">Phone banking</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="text-center1" id="crop4">
+                    <Img src="./img/Symbol.webp" alt="" class="imageCrop5">
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; text-align: center; margin-top: 200px;">Australia Post</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md">
+                <div class="text-center1" id="crop5">
+                    <Img src="./img/Symbol.webp" alt="" class="imageCrop6">
+                    <a href="#" style="text-decoration: none; color: black;">
+                        <h5 style="font-weight: bold; text-align: center; margin-top: 200px;">EFTPOS $ ATMs</h5>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Row 5 -->
+
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer1">
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Help and Support</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">FAQs</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Documents and forms</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Tips, hints and guides</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Financial support</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Ways to bank</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Open Banking Developer Portal</a></p>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Rates and Fees</h5>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Credit card rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All personal loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">All home loan rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Tools and Calculators</h5>
+                    <p><a href="#" style="color: white; text-decoration: none;">Regular Savings
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">Home Loan
+                            Repayments
+                            Calculator</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none;">All home loan
+                            rates</a></p>
+                    <p><a href="#" style="color: white; text-decoration: none; ">Super rates</a></p>
+                </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-12 col-md-3">
+                <div class="text-left">
+                    <h5>Connect with Us</h5>
+                    <p><i class="fab fa-instagram"></i><a href="#" style="color: white; text-decoration: none;">
+                            Instagrame</a></p>
+                    <p><i class="fab fa-facebook"></i><a href="#" style="color: white; text-decoration: none;">
+                            Facebook</a></p>
+                    <p><i class="fab fa-youtube"></i><a href="#" style="color: white; text-decoration: none;">
+                            YouTube</a></p>
+                    <p><i class="fas fa-blog"></i><a href="#" style="color: white; text-decoration: none;">Blog</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer2 -->
+    <footer class="footer2">
+        <div class="container2">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-start mb-0">
+                <!-- About Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">About Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Contact Us -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Contact Us</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Careers -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Careers</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Security -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Security</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Privacy -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Privacy</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Legal -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Legal</a>
+                </li>
+                <!-- Divider -->
+                <li class="d-none d-md-block px-2">|</li>
+
+                <!-- Site Map -->
+                <li class="px-2">
+                    <a href="#" class="text-decoration-none">Site Map</a>
+                </li>
+
+            </ul>
+            <div class="footer3">
+                Sam is a business name of Bank
+                (Australia) Limited ABN 24 000 893 292 AFSL 229823, Australian Credit Licence
+                229823.
+            </div>
+
+
+
+        </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        function menu() {
+            const navbarContainer = document.querySelector(".topBanner");
+
+            // Toggle the 'show' class to display the navbar
+            navbarContainer.classList.toggle("active");
+            const x = document.querySelector(".x");
+            x.classList.toggle("active");
+
+            console.log(x);
+
+
+        }
+    </script>
+</body>
+
+</html>
